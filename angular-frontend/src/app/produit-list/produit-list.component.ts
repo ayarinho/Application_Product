@@ -23,7 +23,7 @@ export class ProductListComponent implements OnInit {
       this.produits = data;
     });
   }
-
+   
   produitsDetails(id: number){
     this.router.navigate(['produits-details', id]);
   }

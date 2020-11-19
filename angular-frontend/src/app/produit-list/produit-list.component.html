@@ -1,4 +1,24 @@
-<h2> Product List</h2>
+<h2> Product List</h2><br/>
+
+<input type="text" size="100px" #val ngModel/> ...search      
+     
+<div *ngFor = "let produit of produits" >
+
+     <div *ngIf="val.value==produit.nom ">
+           
+
+        <app-product-search [product]="produit"></app-product-search>
+
+      
+     </div>
+
+
+   </div>
+
+
+  
+
+   
 <table class = "table table-striped">
     <thead>
         <tr>
@@ -21,3 +41,4 @@
         </tr>
     </tbody>
 </table>
+

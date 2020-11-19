@@ -7,7 +7,8 @@ import { ProductListComponent } from './produit-list/produit-list.component';
 import { CreateProductComponent } from './create-produit/create-produit.component';
 import { FormsModule} from '@angular/forms';
 import { UpdateProductComponent } from './update-produit/update-produit.component';
-import { ProductDetailsComponent } from './produit-details/produit-details.component'
+import { ProductDetailsComponent } from './produit-details/produit-details.component';
+import { ProductSearchComponent } from './product-search/product-search.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProductDetailsComponent } from './produit-details/produit-details.compo
     ProductListComponent,
     CreateProductComponent,
     UpdateProductComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    ProductSearchComponent
   ],
   imports: [
     BrowserModule,
